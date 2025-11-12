@@ -238,7 +238,7 @@
         <div
           class="product-feature text-center col-lg-3 col-md-4 col-sm-12 wow fadeIn cursor-pointer"
           data-wow-delay="0.1s"
-          onclick="window.location.href='product_details.html'"
+          onclick="window.location.href='product_details.php'"
         >
           <img src="assets/imgs/watch-1.png" alt="Watch 1" class="img-fluid" />
           <div class="stars mt-3">

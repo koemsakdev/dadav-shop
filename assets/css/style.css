@@ -54,13 +54,15 @@ hr {
 .navbar-toggler {
     border: none;
     outline: none;
-    padding: 0;
+    border-radius: 2px !important;
     margin: 0;
-    color: white;
+    box-shadow: none !important;
+    background: var(--base-color);
+    color: #fff !important;
+    opacity: 1 !important;
 }
 
 .navbar-toggler:focus {
-    color: white;
     box-shadow: none !important;
 }
 

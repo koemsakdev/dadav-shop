@@ -34,61 +34,29 @@
 
     <div id="navbar"></div>
 
-    <!-- Register Form Start -->
+    <!-- Login Form Start -->
     <section class="my-5 py-5">
-      <div class="container py-2">
-        <h2 class="display-6 fw-bold text-center">Check Out</h2>
+      <div class="container py-2 text-center">
+        <h2 class="display-6">Contact US</h2>
         <hr class="my-3 mx-auto" />
-
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="row g-2">
-                <div class="col-md-6">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="text" class="form-control rounded-0" id="name" />
-                </div>
-                <div class="col-md-6">
-                  <label for="email" class="form-label">Email</label>
-                  <input
-                    type="email"
-                    class="form-control rounded-0"
-                    id="email"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <label for="phone" class="form-label">Phone</label>
-                  <input
-                    type="text"
-                    class="form-control rounded-0"
-                    id="phone"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <label for="city" class="form-label">City</label>
-                  <input type="text" class="form-control rounded-0" id="city" />
-                </div>
-                <div class="col-md-12">
-                  <label for="address" class="form-label">Address</label>
-                  <input
-                    type="text"
-                    class="form-control rounded-0"
-                    id="address"
-                  />
-                </div>
-                <div class="col-md-12 d-flex justify-content-end">
-                  <button type="submit" class="btn btn-checkout ">
-                    Check Out
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+        <ul class="list-unstyled ul-text">
+          <li class="d-flex justify-content-center align-items-center gap-2">
+            <span>Phone number</span>
+            <a href="#" class="text-decoration-none mt-1">012345678</a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center gap-2">
+            <span>Email address</span>
+            <a href="#" class="text-decoration-none mt-1">dadav.shop@store.com.kh</a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center gap-2">
+            <span>We work 24/7 to answer your questions</span>
+          </li>
+        </ul>
       </div>
     </section>
-    <!-- Register Form End -->
+    <!-- Login Form End -->
 
+    
     <div id="footer"></div>
 
     <script src="libs/swiper-bundle.min.js"></script>

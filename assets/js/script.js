@@ -53,7 +53,7 @@
 
       if (
         linkPage === currentPage ||
-        (currentPage === "" && linkPage === "index.html")
+        (currentPage === "" && linkPage === "index.php")
       ) {
         link.classList.add("active");
       } else {
