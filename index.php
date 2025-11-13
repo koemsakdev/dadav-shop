@@ -163,7 +163,6 @@ $coats = getProducts(4, "Coats");
               ";
           }
         }
-
       ?>
     </div>
   </section>

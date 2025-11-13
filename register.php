@@ -16,7 +16,7 @@ if (isset($_POST['register'])) {
     // Check if user already exists
     $userExists = checkUserExists($email);
     if ($userExists) {
-      $error = "User already exists";
+      $error = "User already exists. Please login.";
     } else {
       $data = [
         'user_name' => $name,
